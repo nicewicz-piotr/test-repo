@@ -30,8 +30,8 @@ class Program
         }
 
         WriteLine($"Typ int zajmuje {sizeof(int)} bajtów i może przechowywać liczby z zakresu:\n {int.MaxValue} do {int.MinValue}");
-        WriteLine($"Typ double zajmuje {sizeof(double)} bajtów i może przechowywać liczby z zakresu:\n {double.MaxValue:NO} do {double.MinValue:NO}");
-        WriteLine($"Typ decimal zajmuje {sizeof(decimal)} bajtów i może przechowywać liczby z zakresu:\n {decimal.MaxValue:NO} do {decimal.MinValue:NO}");
+        WriteLine($"Typ double zajmuje {sizeof(double)} bajtów i może przechowywać liczby z zakresu:\n {double.MaxValue:N0} do {double.MinValue:N0}");
+        WriteLine($"Typ decimal zajmuje {sizeof(decimal)} bajtów i może przechowywać liczby z zakresu:\n {decimal.MaxValue:N0} do {decimal.MinValue:N0}");
 
 
 
